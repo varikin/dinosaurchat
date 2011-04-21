@@ -1,0 +1,57 @@
+body { margin: 0; }
+
+div#Chat {
+  margin: 5px;
+  padding: 5px;
+  border: solid black 3px;
+
+  font-family: "Lucida Console", "Andale Mono", "Monaco", monospace;
+  font-size: 12px;
+  
+  position: relative;
+  padding-bottom: 200px;
+}
+
+#dino1, #dino2 {
+  position: absolute;
+  bottom: 0;
+  background-repeat: no-repeat;
+}
+
+#dino1 {
+  left: 5px;
+  bottom: -5px;
+  width: 128px;
+  height: 202px;
+  background-image: url(images/trex.png);
+}
+
+#dino2 {
+  bottom: 0;
+  right: 0;
+  width: 115px;
+  height: 199px;
+  background-image: url(images/utahraptor.png);
+}
+
+.incoming, .outgoing { line-height: 1.4em; }
+
+div.incoming {
+  text-align: right;
+  margin-left: 128px;
+  margin-right: 1em;
+}
+
+div.outgoing {
+  text-align: left;
+  margin-left: 1em;
+  margin-right: 128px;
+}
+
+.contextmessage { color: silver; }
+
+.sender, .contextsender { display: none; }
+.time, .contexttime { display: inline; font-size: 80%; line-height: 18px; color: silver; }
+
+.status { text-align: center; font-size: 80%; color: silver; font-style: italic; margin: 0.5em;
+  text-transform: uppercase; }

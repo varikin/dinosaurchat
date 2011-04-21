@@ -1,0 +1,13 @@
+#dino2 {
+  right: 5px;
+  bottom: -5px;
+  width: 128px;
+  height: 202px;
+  background-image: url(../images/devil-right.png);
+}
+
+.incoming {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: red;
+}

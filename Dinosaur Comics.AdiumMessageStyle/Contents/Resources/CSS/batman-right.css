@@ -1,0 +1,12 @@
+#dino2 {
+  right: 5px;
+  bottom: -5px;
+  width: 128px;
+  height: 202px;
+  background-image: url(../images/batman-right.png);
+}
+
+.incoming {
+  text-transform: lowercase;
+  font-size: 80%;
+}
