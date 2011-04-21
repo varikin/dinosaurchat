@@ -6,4 +6,4 @@ which is based on `Dinosaur Comics <http://www.qwantz.com/index.php>`_.
 
 My change was to add the timestamp by the each message.
 
-.. image:: screenshot.png
+.. image:: https://github.com/varikin/dinosaurchat/raw/master/screenshot.png 
